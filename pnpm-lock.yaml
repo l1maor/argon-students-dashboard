@@ -11,12 +11,21 @@ importers:
       '@fortawesome/fontawesome-free':
         specifier: 6.5.1
         version: 6.5.1
+      '@fortawesome/fontawesome-svg-core':
+        specifier: ^6.6.0
+        version: 6.6.0
       '@fortawesome/free-solid-svg-icons':
         specifier: ^6.6.0
         version: 6.6.0
       '@fortawesome/react-fontawesome':
         specifier: ^0.2.2
         version: 0.2.2(@fortawesome/fontawesome-svg-core@6.6.0)(react@18.2.0)
+      ajv:
+        specifier: ^8.17.1
+        version: 8.17.1
+      ajv-keywords:
+        specifier: ^5.1.0
+        version: 5.1.0(ajv@8.17.1)
       axios:
         specifier: ^1.7.2
         version: 1.7.2
