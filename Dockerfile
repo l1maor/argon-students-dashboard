@@ -21,4 +21,4 @@ RUN pnpm install serve
 
 EXPOSE 3000
 
-CMD ["./node_modules/.bin/serve", "-s", "build"]
+CMD ["pnpm", "start"]
